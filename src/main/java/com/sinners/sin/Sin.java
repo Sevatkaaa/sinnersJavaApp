@@ -1,17 +1,8 @@
-package sin;
+package com.sinners.sin;
 
 public class Sin {
-    protected SinType type;
     protected Integer weight;
     protected String message;
-
-    public SinType getType() {
-        return type;
-    }
-
-    public void setType(SinType type) {
-        this.type = type;
-    }
 
     public Integer getWeight() {
         return weight;
@@ -29,5 +20,10 @@ public class Sin {
         this.message = message;
     }
 
-    public Sin() {}
+    protected Sin() {}
+
+    protected Sin(Integer weight, String message) {
+        this.weight = weight;
+        this.message = message;
+    }
 }

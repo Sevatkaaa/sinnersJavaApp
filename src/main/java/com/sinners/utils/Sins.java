@@ -1,8 +1,8 @@
-package utils;
+package com.sinners.utils;
 
-import sin.Sin;
-import sin.SinType;
-import sin.impl.*;
+import com.sinners.sin.Sin;
+import com.sinners.sin.SinType;
+import com.sinners.sin.impl.*;
 
 public class Sins {
     public Sin createSin(SinType type) {

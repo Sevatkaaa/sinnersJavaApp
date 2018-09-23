@@ -1,4 +1,4 @@
-package sin;
+package com.sinners.sin;
 
 public enum SinType {
     PRIDE,
