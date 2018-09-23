@@ -9,6 +9,10 @@ public class EnvySin extends Sin implements Envy {
     public EnvySin() {
     }
 
+    public EnvySin(Integer weight) {
+        super(weight);
+    }
+
     public EnvySin(Integer weight, String message) {
         super(weight, message);
     }

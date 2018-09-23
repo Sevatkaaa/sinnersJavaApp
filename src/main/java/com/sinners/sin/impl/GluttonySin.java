@@ -9,6 +9,10 @@ public class GluttonySin extends Sin implements Gluttony {
     public GluttonySin() {
     }
 
+    public GluttonySin(Integer weight) {
+        super(weight);
+    }
+
     public GluttonySin(Integer weight, String message) {
         super(weight, message);
     }

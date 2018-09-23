@@ -9,6 +9,10 @@ public class SlothSin extends Sin implements Sloth {
     public SlothSin() {
     }
 
+    public SlothSin(Integer weight) {
+        super(weight);
+    }
+
     public SlothSin(Integer weight, String message) {
         super(weight, message);
     }

@@ -9,6 +9,10 @@ public class LustSin extends Sin implements Lust {
     public LustSin() {
     }
 
+    public LustSin(Integer weight) {
+        super(weight);
+    }
+
     public LustSin(Integer weight, String message) {
         super(weight, message);
     }

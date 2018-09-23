@@ -9,6 +9,10 @@ public class PrideSin extends Sin implements Pride {
     public PrideSin() {
     }
 
+    public PrideSin(Integer weight) {
+        super(weight);
+    }
+
     public PrideSin(Integer weight, String message) {
         super(weight, message);
     }

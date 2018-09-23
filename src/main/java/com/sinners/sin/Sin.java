@@ -22,6 +22,10 @@ public class Sin {
 
     protected Sin() {}
 
+    public Sin(Integer weight) {
+        this.weight = weight;
+    }
+
     protected Sin(Integer weight, String message) {
         this.weight = weight;
         this.message = message;

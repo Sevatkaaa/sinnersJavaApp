@@ -10,6 +10,10 @@ public class WrathSin extends Sin implements Sloth {
     public WrathSin() {
     }
 
+    public WrathSin(Integer weight) {
+        super(weight);
+    }
+
     public WrathSin(Integer weight, String message) {
         super(weight, message);
     }

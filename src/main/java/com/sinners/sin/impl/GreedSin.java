@@ -9,6 +9,10 @@ public class GreedSin extends Sin implements Greed {
     public GreedSin() {
     }
 
+    public GreedSin(Integer weight) {
+        super(weight);
+    }
+
     public GreedSin(Integer weight, String message) {
         super(weight, message);
     }
