@@ -22,7 +22,7 @@ public class Sin {
 
     protected Sin() {}
 
-    public Sin(Integer weight) {
+    protected Sin(Integer weight) {
         this.weight = weight;
     }
 
